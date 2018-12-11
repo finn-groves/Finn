@@ -1,0 +1,51 @@
+Instructions
+
+In this assignment you are to create 3 classes apart from your Main class.
+The main class will still just be used to run your program.
+The 3 classes should be called: School, Teacher, Student.
+
+Here is the criteria for each class:
+- School class:
+    - Fields
+        - Holds an ArrayList of Teachers
+        - Holds an ArrayList of Students
+        - 3 fields of your choosing (example: name) with setters and getters
+    - Methods
+        - Add a teacher to the list
+        - Add a student to the list
+        - Delete a teacher from the list
+        - Delete a student from the list
+        - Show all Teachers
+        - Show all Students
+        - Appropriate constructor
+- Teacher class:
+    - Fields
+        - First name
+        - Last name
+        - Subject
+    - Methods
+        - Appropriate Constructor
+        - When the teacher object is printed: Name: name ; Subject: subject
+        - Setters and getters
+- Student class:
+    - Fields
+        - First name
+        - Last name
+        - Grade
+        - Unique student number created on construction
+    - Methods
+        - Getters and setters
+        - Appropriate Constructor
+        - When printed "Name: name ; Grade: grade"
+
+//Comments in ALL classes
+    - Description of class
+    - Description of methods other than getters and setters
+
+Using your new classes
+    - Add 10 students to the student list
+    - Add 3 teachers to the teacher list
+    - Display both lists
+    - Remove 2 students
+    - Remove 1 teacher
+    - Display both lists
